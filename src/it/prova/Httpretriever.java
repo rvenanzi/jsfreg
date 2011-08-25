@@ -29,7 +29,9 @@ public class Httpretriever {
         // HttpHost proxy = new HttpHost("172.25.1.18", 8080);
         // client.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
         
-      try {
+      // riga inserita nel codice
+	  
+	  try {
          
          HttpResponse getResponse = client.execute(getRequest);
          final int statusCode = getResponse.getStatusLine().getStatusCode();
