@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://cooperazione.sian.it/schema/SoapAutenticazione" xmlns:dat="http://cooperazione.sian.it/schema/DatimaPrezziOsserva">
+   <soapenv:Header>
+      <soap:SOAPAutenticazione>
+         <username>wspddplmr33mare</username>
+         <password>1alce32</password>
+         <nomeServizio>leggiListaLocalita</nomeServizio>
+      </soap:SOAPAutenticazione>
+   </soapenv:Header>
+   <soapenv:Body>
+      <dat:DummyRequest>
+         <dat:dummyAttr>?</dat:dummyAttr>
+      </dat:DummyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
